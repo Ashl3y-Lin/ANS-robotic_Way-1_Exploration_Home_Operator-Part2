@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator (Part 2)</title>
+
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+    <link rel="stylesheet" href="quizSection.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Begin?</a></li>
+                        <li><a href="#">10_Topics</a></li>
+                        <li><a href="#"> Questions</a></li>
+                    </ul>
+                </li>
+                
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Movement</a></li>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">WRO?</a></li>
+                        <li><a href="#">ANS_journey</a></li>
+                        <li><a href="#">Tips</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Operator (Part 2)</h1>
+            <div>
+                <p>Operators: are programming blocks used to perform mathematical operations or logical comparisons. 
+                </p>
+                <p>These blocks allow you to manipulate numbers and make decisions based on conditions.</p>
+                <p>Such as:</p>
+            </div>
+            <div class="side-side">
+                <img src="https://i.ibb.co/HKKvdj4/operators.png" alt="operators">
+            </div>
+             
+        </div>
+            
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="https://s9.gifyu.com/images/SZX8J.png" alt="logo operator" height="90" alt=""></a></div>
+                        
+                        
+
+                        <a href="#movement-home"><span class="side-bar-title-1">Part 1</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#operator-math" class="sub-item"> Math (Arithmetic)</a></li>
+                            <li><a href="#operator-math2" class="sub-item">Math equation</a></li>
+                            <li><a href="#operator-inequality" class="sub-item">Math (Inequalities)</a></li>
+                            <li><a href="#operator-shape" class="sub-item">3 shape of input</a></li>
+                        </ul>
+
+                        <!-- <a href="different-page.html#section1">Section One</a> -->
+                        <a href=""><span class="side-bar-title-2  highlight">Part 2</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#build-all" class="sub-item"> Build the robot</a></li>
+                            <li><a href="#operator-AND" class="sub-item"> "And" Operator</a></li>
+                            <li><a href="#and-repeat" class="sub-item">Repeat Until "And" Operator</a></li>
+                            <li><a href="#and-ifElse" class="sub-item">If-Else "And" Operator</a></li>
+                            <li><a href="#operator-OR" class="sub-item">"Or" Operator</a></li>
+                            <li><a href="#or-repeat" class="sub-item">Repeat Until "Or" Operator</a></li>
+                            <li><a href="#or-ifElse" class="sub-item">If-Else "Or" Operator</a></li>
+                            <li><a href="#operator-quiz" class="sub-item">Quiz</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container grid-item together" id="build-all">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>Build the entire robot by:</h2>
+                    <p>If you have not done so</p>
+                </div>
+                <div class="flex-item">
+                    <div class="img-flex">
+                        <img src="https://i.ibb.co/7ps7tDX/IMG-2019.jpg" alt="IMG-2019">
+                        <img src="https://i.ibb.co/GJ7VBjs/IMG-2018.jpg" alt="IMG-2018">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                    <a href="https://ashl3y-lin.github.io/way-1_exploration-Robot_Design/"><button class="design_button">Click here to find the guide</button></a>
+               </div>
+            </div>
+        </div>
+
+<!-- And AND -->
+        <div class="grid-container margin-bottom">
+            <div id="forth-back" class="grid-item together pink-background-1">
+                <div class="flex-grid flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Logical operators:</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://i.ibb.co/MNJy8Wg/or-and-green.png" alt="or-and-green">
+                        </div>
+
+                    <div class="flex-item">
+                        <p>-> Logical operators are used to create more complex conditions.</p>
+                        <p>-> They are especially useful in decision-making and branching structures, allowing your robot to make intelligent choices based on sensor inputs or other conditions.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of grid-container -->
+        </div>
+
+
+        <div class="grid-container margin-bottom">
+            <div id="operator-AND" class="grid-item together pink-background">
+                <div class="flex-grid flex-container-split flex-item">
+
+                        <div class="both2">
+                            <h2>"AND" operator</h2>
+                        </div>
+                        
+                        <div class="img-smaller">
+                            <img src="https://i.ibb.co/T8J3mqm/And-operator.png" alt="And-operator">
+                        </div>
+
+                    <div class="flex-item">
+                        <p><strong>For example:</strong></p>
+                            <p><strong>-></strong> Is it true that fruit AND fried chicken are healthy?</p>
+                            <p class="add-padding-left">No. So, this is false</p>
+                            <p><strong>-></strong> Is it true that apple AND strawberry are healthy?</p>
+                            <p class="add-padding-left">Yes. So, this is true</p>
+                        <img src="https://i.ibb.co/gV0HWbK/And-example.png" alt="And-example">
+                        <p> "AND" operator combines two conditions and returns true only if both conditions are true. It's represented by the symbol <strong>"&&."</strong></p>
+                        <p>For example:</p>
+                        <p class="add-padding-left">Condition 1: Touch sensor is pressed.</p>
+                        <p class="add-padding-left">Condition 2: Color sensor detects red.</p>
+                        <p class="add-padding-left">Combined Condition: Touch sensor is pressed && Color sensor detects red.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of grid-container -->
+        </div>
+
+
+    <div class="grid-container add-margin-bottom" id="and-repeat">
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>Repeat Until "And" Operator</h2>
+                    <img src="https://i.ibb.co/sQGJMTC/4-and-red-15cm.png" alt="4-and-red-15cm">
+                </div>
+                <div class="paragraph">
+                    <p>1- <strong>Repeat</strong> [Robot move backward at the speed of 50%]</p>
+                    <p>2- <strong>Until</strong> [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"]</p>
+                    <p>3- Stop moving</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>False:</h2>
+                    <img src="https://s9.gifyu.com/images/SaO3z.gif" alt="back and no (1)">
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/28dv9JV/4-and-red-15cm-copy-2.png" alt="4-and-red-15cm-copy-2">
+                </div>
+                <div class="paragraph">
+                    <p>-> Robot did not stop because the condition it's not met. So, it's false. </p>
+                    <p>-> Because ONLY ultrasonic sensor "less than 15cm" BUT not Color sensor.</p>
+                    <p>BOTH condition have to be fulfill in order to meet the condition.</p>
+                </div>
+            </div>
+
+        
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True:</h2>
+                        <img src="https://s12.gifyu.com/images/SaO3S.gif" alt="back and yes">
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/J7GxTyQ/4-and-red-15cm.png" alt="4-and-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                       <p>-> [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] is detected. Condition it's met.</p>
+                       <p>-> Robot Stop moving</p>
+                    </div>
+                </div>
+            </div>
+                <!-- closure div grid-container -->
+            </div>
+            
+<!-- AND OPERATOR 2 -->
+    <div class="grid-container add-margin-bottom" id="and-ifElse">
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>If-Else "And" Operator</h2>
+                    <img src="https://i.ibb.co/2j6DVdD/6-And-if-else-red-15cm.png" alt="6-And-if-else-red-15cm">
+                </div>
+                <div class="paragraph">
+                    <p>IF</p>
+                    <div class="add-padding-left">
+                        <p>1- If [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] condition is met</p>
+                        <p>2- Robot move <strong>FORWARD</strong> at the speed of 50%</p>
+                    </div>
+                    <p>ELSE</p>
+                    <div class="add-padding-left">
+                        <p>1- If [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] condition <strong>NOT</strong> met</p>
+                        <p>2- Robot move <strong>BACKWARD</strong> at the speed of 50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>False:</h2>
+                   <img src="https://s12.gifyu.com/images/Sf2rX.gif" alt="and no">
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/jyB3SKJ/6-And-if-else-red-15cm-copy-2.png" alt="6-And-if-else-red-15cm-copy-2">
+                </div>
+                <div class="paragraph">
+                    <p>-> Robot did not move forward because the condition it's not met. So, it's false. </p>
+                    <p>-> Because ONLY ultrasonic sensor "less than 15cm" BUT not Color sensor.</p>
+                    <p>BOTH condition have to be fulfill in order to meet the condition.</p>
+                    <p>So, robot move BACKWARD.</p>
+                </div>
+            </div>
+
+        
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True:</h2>
+                       <img src="https://s12.gifyu.com/images/Sf2re.gif" alt="and yes (1)">
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/GFYyV7H/6-And-if-else-red-15cm.png" alt="6-And-if-else-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                        <p>-> [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] is detected. Condition it's met.</p>
+                       <p>-> Robot move FORWARD</p>
+                    </div>
+                </div>
+            </div>
+                <!-- closure div grid-container -->
+            </div>
+        
+
+<!-- OR OPERATOR -->
+
+<!-- OR MEANING AND EXPLANATION -->
+        <div class="grid-container margin-bottom">
+            <div id="operator-OR" class="grid-item together pink-background">
+                <div class="flex-grid flex-container-split flex-item">
+
+                        <div class="both2">
+                            <h2>"OR" operator</h2>
+                        </div>
+                        
+                        <div class="img-smaller">
+                            <img src="https://i.ibb.co/nDvQt15/Or-operator.png" alt="Or-operator">
+                        </div>
+
+                    <div class="flex-item">
+                        <p><strong>For example:</strong></p>
+                            <p><strong>-></strong>Is it true that ice cream OR fried chicken: food?</p>
+                            <p class="add-padding-left">Yes. So, this is true</p>
+                            <p><strong>-></strong> Is ice cream OR fried chicken: machines?</p>
+                            <p class="add-padding-left">No. So, this is false</p>
+                            <img src="https://i.ibb.co/cxP4f9W/Or-example.png" alt="Or-example">
+                        <p> "OR" operator combines two conditions and returns true if at least one of the conditions is true. It's represented by the symbol <strong>"||"</strong>.</p>
+                        <p>For example:</p>
+                        <p class="add-padding-left">Condition 1: Color sensor detects blue</p>
+                        <p class="add-padding-left">Condition 2: Color sensor detects red</p>
+                        <p class="add-padding-left">Combined Condition: Color sensor detects blue || Color sensor detects red.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of grid-container -->
+        </div>
+
+
+<!-- OR OPERATOR -->
+        <div class="grid-container add-margin-bottom" id="forward-backward">
+            <div class="grid-item" id="or-repeat">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Repeat Until "Or" operator</h2>
+                        <img src="https://i.ibb.co/mtgc7vn/3-OR-red-15cm.png" alt="3-OR-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                        <p>1- <strong>Repeat</strong> [Robot move backward at the speed of 50%]</p>
+                        <p>2- <strong>Until</strong> [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"]</p>
+                        <p>3- Stop moving</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True: Color Sensor "red"</h2>
+                        <img src="https://s12.gifyu.com/images/Sf2t2.gif" alt="back or red (1)">
+                    </div>
+                    <div class="flex-item">
+                       <img src="https://i.ibb.co/pfkMR1g/3-OR-red-15cm.png" alt="3-OR-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                       <p>The robot either [Color Sensor detect "red" OR Ultrasinic distance "less than 15cm"]. Color sensor detected "red", so condition is met.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True: Ultrasonic "less than 15cm"</h2>
+                        <img src="https://s12.gifyu.com/images/SaO3M.gif" alt="stop or yes" >
+                    </div>
+                    <div class="flex-item">
+                       <img src="https://i.ibb.co/0ZhZGq8/3-OR-red-15cm-copy-2.png" alt="3-OR-red-15cm-copy-2">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot either [Color Sensor detect "red" OR Ultrasinic distance "less than 15cm"]. Ultrasonic sensor detected "distance less than 15cm", so condition is met.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of grid-container -->
+        </div>
+
+        <div class="grid-container add-margin-bottom">
+            <!-- Spin Turn -->
+            <div class="grid-item" id="or-ifElse">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>If-Else "Or" operator</h2>
+                       <img src="https://i.ibb.co/LCBR6hD/5-OR-if-Else-red-15cm.png" alt="5-OR-if-Else-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                        <p>IF</p>
+                        <div class="add-padding-left"> 
+                            <p>1- If [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] condition is met</p>
+                            <p>2- Robot move <strong>FORWARD</strong> at the speed of 50%</p>
+                        </div>
+                        <p>ELSE</p>
+                        <div class="add-padding-left"> 
+                            <p>1- If [Color Sensor detect "red" AND Ultrasinic distance "less than 15cm"] condition <strong>NOT</strong> met</p>
+                            <p>2- Robot move <strong>BACKWARD</strong> at the speed of 50%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True: color sensor "red"</h2>
+                     <img src="https://s12.gifyu.com/images/Sf2r3.gif" alt="or red" >
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/Fxs4t6p/5-OR-if-Else-red-15cm.png" alt="5-OR-if-Else-red-15cm">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot either [Color Sensor detect "red" OR Ultrasinic distance "less than 15cm"]. Color sensor detected "red", so condition is met.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>True: Ultrasonic "less than 15cm"</h2>
+                       <img src="https://s12.gifyu.com/images/Sf2r9.gif" alt="or ultra">
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/grY5mht/5-OR-if-Else-red-15cm-copy-2.png" alt="5-OR-if-Else-red-15cm-copy-2">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot either [Color Sensor detect "red" OR Ultrasinic distance "less than 15cm"]. Ultrasonic sensor detected "distance less than 15cm", so condition is met.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Closure of grid-container -->
+    </div>
+            
+<div class="grid-container">
+ <!-- Quiz Sction -->
+            <div class="grid-item together pink-background" id="operator-quiz">
+                <!-- Quiz section -->
+                <div class="app">
+                    <h1>Time for a quiz!</h1>
+                    <div class="quiz">
+                        <h2 id="question"> Question goes here</h2>
+                        <div id="answer-buttons">
+                            <button class="btn"> Answer 1</button>
+                            <button class="btn"> Answer 2</button>
+                            <button class="btn"> Answer 3</button>
+                            <button class="btn"> Answer 4</button>
+                        </div>
+                        <button id="next-button">Next</button>
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of div grid-container -->
+    </div>
+
+<!-- End of wrapper -->
+    </div>
+    
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <a href=""><button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button> </a>
+        <a href="https://primelessons.org/en/Lessons.html"><button id="motors" class="next-button">Next: Variable <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+       
+    </div>
+
+
+          <!-- Footer -->
+          <div class="footer-container">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+    <script src="scroll-smooth.js"></script>
+</body>
+</html>
